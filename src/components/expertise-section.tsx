@@ -1,5 +1,3 @@
-'use client';
-
 const expertiseItems = [
   {
     number: "01",
@@ -29,7 +27,7 @@ const expertiseItems = [
 
 export function ExpertiseSection() {
   return (
-    <section className="mt-32 px-6 md:px-12 lg:px-24 pb-24">
+    <section id="expertise" className="mt-32 px-6 md:px-12 lg:px-24 pb-24">
       <h2 className="text-5xl md:text-6xl font-bold mb-16">
         OUR SERVICE<br />EXPERTISE
       </h2>

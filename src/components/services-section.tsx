@@ -1,5 +1,3 @@
-'use client';
-
 import Link from "next/link";
 
 const services = [
@@ -11,7 +9,7 @@ const services = [
 
 export function ServicesSection() {
   return (
-    <section className="mt-32 px-6 md:px-12 lg:px-24">
+    <section id="services" className="mt-32 px-6 md:px-12 lg:px-24">
       <div className="max-w-xl">
         <p className="text-gray-400">
           Darrin Duncan brings your vision to life with stunning

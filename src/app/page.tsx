@@ -1,5 +1,3 @@
-'use client';
-
 import { ExpertiseSection } from "@/components/expertise-section";
 import { FeaturedWork } from "@/components/featured-work";
 import { HeroSection } from "@/components/hero-section";

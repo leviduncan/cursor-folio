@@ -1,5 +1,3 @@
-'use client';
-
 import Link from "next/link";
 
 const workItems = [
@@ -10,7 +8,7 @@ const workItems = [
 
 export function FeaturedWork() {
   return (
-    <section className="mt-32 px-6 md:px-12 lg:px-24">
+    <section id="work" className="mt-32 px-6 md:px-12 lg:px-24">
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end mb-16 gap-8">
         <h2 className="text-5xl md:text-6xl font-bold">
           FEATURED<br />WORK
