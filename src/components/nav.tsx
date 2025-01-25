@@ -1,10 +1,12 @@
+'use client';
+
 import Link from 'next/link';
 
 export function Nav() {
   return (
-    <nav className="fixed w-full z-50 px-6 py-4 flex justify-between items-center">
+    <nav className="fixed w-full z-50 px-6 py-4 flex justify-between items-center bg-black/80 backdrop-blur-sm">
       <Link href="/" className="text-2xl font-bold">
-        Olive.
+        Darrin Duncan
       </Link>
       
       <div className="flex items-center gap-8">

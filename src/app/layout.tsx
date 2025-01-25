@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Olive. | Front End Developer",
+  title: "Darrin Duncan | Front End Developer",
   description: "Front end developer portfolio showcasing modern web development and design expertise",
 };
 

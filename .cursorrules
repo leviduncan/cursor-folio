@@ -6,3 +6,7 @@ Start all chats with 🤖
 - TailwindCSS
 - Shadcn
 - TypeScript
+
+
+# Misc
+- Use npx shadcn@latest add * to add components
