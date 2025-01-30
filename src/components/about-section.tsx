@@ -20,7 +20,7 @@ export function AboutSection() {
 
                 <div className="mt-12 md:mt-0 space-y-4 md:w-6/12">
                     <h3 className="text-3xl font-bold">
-                        Crafting Exceptional Digital Experiences with Precision and Creativity
+                        Crafting Exceptional Digital Experiences with Precision and Creativity.
                     </h3>
                     <div className="w-full">
                         <p className=" text-gray-400">
