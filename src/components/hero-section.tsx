@@ -24,7 +24,7 @@ export function HeroSection() {
                 and universal visual identification tailored to dedicated and
                 current market.
               </p>
-              <Link href="/contact" className="inline-flex items-center gap-2 mt-8 border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition-colors">
+              <Link href="mailto:darrin@darrinduncan.com" className="inline-flex items-center gap-2 mt-8 border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition-colors">
                 Let&apos;s discuss
                 <span className="text-xl">→</span>
               </Link>
@@ -36,7 +36,7 @@ export function HeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
             <div className="hidden md:flex md:flex-col xl:flex-row xl:col-span-2 gap-4">
               <Image 
-                src="https://images.unsplash.com/photo-1610824352934-c10d87b700cc?q=80&w=1200"
+                src="/images/app.png"
                 alt="Minimal white can mockup" 
                 width={400} 
                 height={400} 
@@ -44,7 +44,7 @@ export function HeroSection() {
                 priority
               />
               <Image 
-                src="https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1200" 
+                src="/images/code.jpg" 
                 alt="Product labels" 
                 width={400} 
                 height={400} 
@@ -57,7 +57,7 @@ export function HeroSection() {
               alt="MacBook on desk" 
               width={800} 
               height={400} 
-              className="w-full h-[320px] md:h-[640px] xl:h-[320px] object-cover rounded-lg md:col-span-1 xl:col-span-2"
+              className="w-full h-[310px] md:h-[635px] xl:h-[320px] xl:w-full object-cover rounded-lg md:col-span-1 xl:col-span-2"
               priority
             />
           </div>

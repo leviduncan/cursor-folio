@@ -9,10 +9,11 @@ export function Nav() {
 
   const menuItems = [
     { href: '#hero', label: 'Home' },
-    { href: '#services', label: 'Services' },
+    { href: '#about', label: 'About' },
+    // { href: '#services', label: 'Services' },
     { href: '#work', label: 'Work' },
     { href: '#expertise', label: 'Expertise' },
-    { href: '#contact', label: 'Contact' }
+    { href: 'mailto:darrin@darrinduncan.com', label: 'Contact' }
   ];
 
   return (
