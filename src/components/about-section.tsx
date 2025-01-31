@@ -24,10 +24,10 @@ export function AboutSection() {
                     </h3>
                     <div className="w-full">
                         <p className=" text-gray-400">
-                            I'm a front-end developer who is passionate about transforming ideas into impactful digital realities. Leveraging expertise in HTML5, CSS3, and JavaScript, I specialize in creating intuitive, accessible, and visually compelling web interfaces. My goal is to empower businesses with elegant, high-performance solutions that resonate with their users.
+                            I&apos;m a front-end developer who is passionate about transforming ideas into impactful digital realities. Leveraging expertise in HTML5, CSS3, and JavaScript, I specialize in creating intuitive, accessible, and visually compelling web interfaces. My goal is to empower businesses with elegant, high-performance solutions that resonate with their users.
                         </p>
                         <p className=" text-gray-400">
-                            Over the years, I've honed my skills in modern web development, embracing emerging trends and technologies to stay ahead in the ever-evolving digital landscape. Whether collaborating with teams or leading projects, I bring dedication, adaptability, and an unwavering commitment to excellence.
+                            Over the years, I&apos;ve honed my skills in modern web development, embracing emerging trends and technologies to stay ahead in the ever-evolving digital landscape. Whether collaborating with teams or leading projects, I bring dedication, adaptability, and an unwavering commitment to excellence.
 
                             I believe that great design and functionality go hand in hand, and I strive to deliver results that make a lasting impression.
                         </p>
