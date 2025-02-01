@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import AppImg from '../../public/images/app.png';
+import CodeImg from '../../public/images/code.jpg';
+import LapImg from '../../public/images/laptop.jpg';
 
 export function HeroSection() {
   return (
@@ -36,24 +39,22 @@ export function HeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
             <div className="hidden md:flex md:flex-col xl:flex-row xl:col-span-2 gap-4">
               <Image 
-                src="/images/app.png"
-                alt="Minimal white can mockup" 
+                src={AppImg}
+                alt="App mockup" 
                 width={400} 
                 height={400} 
                 className="w-full h-[310px] xl:w-1/2 xl:h-[320px] object-cover rounded-lg"
-                priority
               />
               <Image 
-                src="/images/code.jpg" 
-                alt="Product labels" 
+                src={CodeImg}
+                alt="Awesome Code" 
                 width={400} 
                 height={400} 
                 className="w-full h-[310px] xl:w-1/2 xl:h-[320px] object-cover rounded-lg"
-                priority
               />
             </div>
             <Image 
-              src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200"
+              src={LapImg}
               alt="MacBook on desk" 
               width={800} 
               height={400} 
@@ -65,4 +66,4 @@ export function HeroSection() {
       </div>
     </section>
   );
-} 
+}

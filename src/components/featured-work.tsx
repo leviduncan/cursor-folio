@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import AppImg from '../../public/images/app.png';
+import RecImg from '../../public/images/recipe-hunt.png';
+import StarrImg from '../../public/images/starrmark.png';
+import A4hgImg from '../../public/images/a4hg.png';
 
 const workItems = [
-    { title: "COOL PRODUCTS", number: "01", desc: "Electronics eccommerce store", img: "/images/app.png", link: "https://dd-context-store-app.netlify.app/" },
-    { title: "RECIPE HUNT", number: "02", desc: "Find your favorite dishes", img: "/images/recipe-hunt.png", link: "https://recipe-hunt.darrinduncan.com/" },
-    { title: "Starrmark Solutions.LLC", number: "03", desc: "Government Contractor", img: "/images/starrmark.png", link: "https://starrmarksolutions.llc/" },
-    { title: "All For His Glory", number: "03", desc: "Featured Flag Collection", img: "/images/a4hg.png", link: "https://allforhisgloryworship.com/" }
+    { title: "COOL PRODUCTS", number: "01", desc: "Electronics eccommerce store", img: AppImg, link: "https://dd-context-store-app.netlify.app/" },
+    { title: "RECIPE HUNT", number: "02", desc: "Find your favorite dishes", img: RecImg, link: "https://recipe-hunt.darrinduncan.com/" },
+    { title: "Starrmark Solutions.LLC", number: "03", desc: "Government Contractor", img: StarrImg, link: "https://starrmarksolutions.llc/" },
+    { title: "All For His Glory", number: "04", desc: "Featured Flag Collection", img: A4hgImg, link: "https://allforhisgloryworship.com/" }
 ];
 
 export function FeaturedWork() {
@@ -23,8 +27,8 @@ export function FeaturedWork() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                {workItems.map((work, i) => (
-                    <div key={i} className="group py-8">
+                {workItems.map((work) => (
+                    <div key={work.title} className="group py-8">
                         <div className="flex items-center justify-between">
                             <div className="flex flex-col gap-4">
                                 <div className="w-full ">
@@ -34,7 +38,6 @@ export function FeaturedWork() {
                                         width={400}
                                         height={400}
                                         className="xl:w-full xl:h-[320px] object-cover rounded-lg"
-                                        priority
                                     />
                                 </div>
                                 <div className="w-full ">
@@ -54,4 +57,4 @@ export function FeaturedWork() {
             </div>
         </section>
     );
-} 
+}

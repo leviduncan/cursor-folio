@@ -1,8 +1,8 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
-import { useState } from 'react';
 
 export function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ export function Nav() {
     // { href: '#services', label: 'Services' },
     { href: '#work', label: 'Work' },
     { href: '#expertise', label: 'Expertise' },
-    { href: 'mailto:darrin@darrinduncan.com', label: 'Contact' }
+    // { href: 'mailto:darrin@darrinduncan.com', label: 'Contact' }
   ];
 
   return (
@@ -86,7 +86,8 @@ export function Nav() {
           isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         )}
         onClick={() => setIsMenuOpen(false)}
+        aria-label="Mobile menu overlay"
       />
     </>
   );
-} 
+}

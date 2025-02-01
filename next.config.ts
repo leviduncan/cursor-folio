@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
         hostname: 'images.unsplash.com',
       },
     ],
+    unoptimized: true, // Add this line
   },
   output: 'export',
 };
