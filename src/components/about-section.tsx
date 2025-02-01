@@ -4,11 +4,11 @@ import DDImg from '../../public/images/dd.jpg';
 export function AboutSection() {
     return (
         <section id="about" className="mt-32 px-6 md:px-12 lg:px-24">
-            <h2 className="text-5xl md:text-6xl font-bold mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold mb-16 text-center">
                 ABOUT
             </h2>
             <div className="flex flex-col md:flex-row md:gap-4">
-                <div className="w-full md:w-6/12">
+                <div className="w-full sm:w-6/12 md:w-4/12">
                     <Image
                         src={DDImg}
                         alt="Your Name or Profile Picture"
@@ -16,7 +16,7 @@ export function AboutSection() {
                     />
                 </div>
 
-                <div className="mt-12 md:mt-0 space-y-4 md:w-6/12">
+                <div className="mt-12 sm:w-6/12 md:mt-0 space-y-4 ">
                     <h3 className="text-3xl font-bold">
                         Crafting Exceptional Digital Experiences with Precision and Creativity.
                     </h3>

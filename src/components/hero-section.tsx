@@ -22,7 +22,7 @@ export function HeroSection() {
             </div>
 
             <div className="mt-6 md:mt-0 md:w-1/2 xl:w-full">
-              <p className="text-gray-400">
+              <p className="text-gray-400 xl:w-8/12">
                 As a front end developer using modern ideas simplicity design
                 and universal visual identification tailored to dedicated and
                 current market.

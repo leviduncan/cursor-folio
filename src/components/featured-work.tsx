@@ -19,10 +19,8 @@ export function FeaturedWork() {
                 <h2 className="text-5xl md:text-6xl font-bold">
                     FEATURED<br />WORK
                 </h2>
-                <p className="text-gray-400 lg:max-w-xs lg:text-right">
-                    As a front end developer using modern ideas simplicity design
-                    and universal visual identification tailored to dedicated and
-                    current market.
+                <p className="text-gray-400 lg:max-w-lg lg:text-right flex">
+                    Here are some of my favorite projects, where I&apos;ve combined modern design principles, simplicity, and a passion for delivering value to create engaging and effective user experiences.
                 </p>
             </div>
 

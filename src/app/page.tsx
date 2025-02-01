@@ -1,6 +1,7 @@
 import { AboutSection } from "@/components/about-section";
 import { ExpertiseSection } from "@/components/expertise-section";
 import { FeaturedWork } from "@/components/featured-work";
+import { Footer } from "@/components/footer";
 import { HeroSection } from "@/components/hero-section";
 import { Nav } from "@/components/nav";
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutSection />
       <FeaturedWork />
       <ExpertiseSection />
+      <Footer />
     </main>
   );
 }

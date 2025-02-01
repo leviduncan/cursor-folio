@@ -57,22 +57,28 @@ export function ExpertiseSection() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-        setOffset((prevOffset) => {
-            if (prevOffset < -skills.length * 200) {
-                return 0;
-            }
-            return prevOffset - 1;
-        });
+      setOffset((prevOffset) => {
+        if (prevOffset < -skills.length * 200) {
+          return 0;
+        }
+        return prevOffset - 1;
+      });
     }, 50); // Adjust the interval (in milliseconds) to control speed
 
     return () => clearInterval(intervalId);
   }, [skills]);
 
   return (
-    <section id="expertise" className="mt-32 px-6 md:px-12 lg:px-24 pb-24 w-full sm:w-full md:w-10/12 xl:w-9/12 mx-auto">
-      <h2 className="text-5xl md:text-6xl font-bold mb-16 flex justify-center">EXPERTISE</h2>
-      <p className="text-gray-400 text-center">Leveraging industry-leading technologies to create seamless, interactive, and visually stunning web applications.</p>
-      <div className="carousel-container relative overflow-hidden">
+    <section id="expertise" className="mt-32 px-6 md:px-12 lg:px-24" >
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end mb-16 gap-8">
+        <h2 className="text-5xl md:text-6xl font-bold">
+          EXPERTISE
+        </h2>
+        <p className="text-gray-400 lg:max-w-lg lg:text-right flex">
+          Leveraging industry-leading technologies to create seamless, interactive, and visually stunning web applications.
+        </p>
+      </div>
+      <div className="carousel-container relative overflow-hidden w-full sm:w-8/12 mx-auto">
         <div
           ref={carouselRef}
           className="carousel flex transition-transform duration-500"
